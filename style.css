@@ -1,0 +1,284 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  :root {
+    font-size: 62.5%;
+  
+  }
+  
+  body {
+    background: #FFF;
+  
+    font-size: 1.6rem;
+    font-family: "Mulish", sans-serif;
+    
+  }
+  
+  .page {
+    min-width: 43rem;
+    margin: 0 auto;
+  
+  }
+  
+  header {
+  
+    display: flex;
+    padding: 1.2rem 2.8rem;
+    gap: 2.6rem;
+    align-items: center;
+    justify-content: space-between;
+  
+    background:  #065E7C;
+  }
+  
+  form {
+    flex: 1;
+  }
+  
+  .input-wrapper input {
+    padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+    width: 100%;
+  
+    border: 0;
+    border-radius: .4rem;
+  
+    background: rgba(255, 255, 255, 0.20);
+  }
+  
+  .input-wrapper label {
+    width: 0;
+    /* height: 1px; */
+    overflow: hidden;
+    position: absolute;
+  
+  }
+  
+  ::placeholder {
+    color: #FFF;
+  }
+  
+  .logo {
+    border-radius: 50%;
+    width: 4.0rem;
+  
+    background: #F4FCFF;
+  
+    padding: .8rem;
+  }
+  
+  .logo:hover {
+    cursor: pointer;
+    background: #cdd2d4;
+  
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 4.0rem;
+  }
+  
+  .title, .content1, .page2 {
+    padding: 0 2.6rem 0 2.2rem;
+  }
+  
+  .item img {
+    width: 100%;
+    
+    display: flex;
+  
+    border-radius: .5rem;
+  }
+  
+  h1 {
+    margin-top: 3.1rem;
+  
+    width: 34.2rem;
+    height: 3.8rem;
+  
+  
+    color:  #202024;
+  
+    font-size: 2.4rem;
+  
+    font-weight: 700;
+  
+  }
+  
+  button {
+  
+    margin-top: .8rem;
+  
+    padding: 1.2rem;
+  
+    border-radius: 50%;
+    background:  #065E7C;
+  
+    border: none;
+    width: 4.0rem;
+    height: 4.0rem;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background:  #02485f;
+  }
+  
+  .content1 p {
+    margin-top: 3.1rem;
+  
+    width: 38.2rem;
+    color:  #121214;
+  
+    font-size: 1.6rem;
+  
+    font-weight: 400;
+    line-height: 160%; 
+  }
+  
+  #segundo-title {
+    margin-bottom: 3.1rem 
+  }
+  
+  .content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+  
+  .content2 .card {
+    display: flex;
+    gap: 1.6rem;
+    height: 8.4rem;
+    width: 38.2rem;
+  
+  }
+  
+  .content2 .card figure {
+    border-radius: .5rem;
+  
+    object-fit: cover;
+  }
+  
+  
+  .content2 .card .blog h2 {
+    color:  #202024;
+  
+  
+    font-size: 1.8rem;
+    font-weight: 700;
+  
+    height: 1.3rem;
+   
+  
+    margin-bottom: 1.5rem;
+  }
+  
+  .content2 .card a {
+    text-decoration: none;
+  
+    color:  #202024;
+  }
+  
+  .content2 .card .blog p {
+    color: #121214;
+  
+    font-size: 1.4rem;
+    font-weight: 400;
+  
+    width: 21.5rem;
+    height: 5.4rem;
+   
+  }
+  
+  footer {
+    background: #387E96;
+  
+    margin: 4.0rem auto 0;
+  }
+  
+  
+  footer p {
+    color: #FFF;
+  
+   
+    font-size: 1.6rem;
+    font-weight: 600;
+   
+  
+    text-align: center;
+    padding: 1.6rem;
+  
+  }
+  
+  @media (min-width:700px) {
+  
+  
+    .page {
+      max-width: 100%;
+    }
+   
+    .item img {
+      margin-top: 4.4rem;
+      width: 80rem;
+      
+    }
+  
+    .title {
+      display: flex;
+      width: 80rem;
+      height: 4rem;
+      justify-content: space-between;
+      align-items: center;
+  
+      margin-top: 3.1rem;
+    }
+  
+    .title h1 {
+      margin-right: 36.6rem;
+      margin-top: 1rem;
+    }
+  
+    .title button {
+      margin-top: auto;
+    }
+  
+  
+  
+   button + button {
+    margin-left: 1.2rem;
+   }
+  
+   .content1 p {
+    width: 80rem;
+   }
+  
+   #segundo-title {
+    margin-top: 4.4rem;
+   }
+  
+   main {
+    display: flex;
+    gap: 3.4rem;
+    justify-content: center;
+  
+    max-width: 144rem;
+   }
+  
+   .title, .content1, .page2 {
+    padding: 0;
+  }
+  
+  footer {
+
+    max-width: 100%;
+    
+  }
+  
+  }
+  
